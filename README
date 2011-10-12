@@ -1,0 +1,5 @@
+Brainstorm is a simple application to keep track of the random thoughts and ideas that come about in life.
+
+------------------------
+
+It is written in MacRuby and uses a SQLite backend, not Core Data.

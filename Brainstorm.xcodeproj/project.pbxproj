@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B7E6E9A142BD1FD007D1DF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7E6E99142BD1FD007D1DF4 /* Cocoa.framework */; };
+		6B7E6E9C142BD1FD007D1DF4 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7E6E9B142BD1FD007D1DF4 /* MacRuby.framework */; };
+		6B7E6EA5142BD1FD007D1DF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EA3142BD1FD007D1DF4 /* InfoPlist.strings */; };
+		6B7E6EA7142BD1FD007D1DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E6EA6142BD1FD007D1DF4 /* main.m */; };
+		6B7E6EAC142BD1FD007D1DF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EAA142BD1FD007D1DF4 /* MainMenu.xib */; };
+		6B7E6EAF142BD1FD007D1DF4 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EAE142BD1FD007D1DF4 /* rb_main.rb */; };
+		6B7E6EB1142BD1FD007D1DF4 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EB0142BD1FD007D1DF4 /* AppDelegate.rb */; };
+		6B7E6EBF142BD563007D1DF4 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EBE142BD563007D1DF4 /* ToDo.txt */; };
+		6B7E6EC1142BD7F2007D1DF4 /* Brainstorm.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EC0142BD7F2007D1DF4 /* Brainstorm.icns */; };
+		6B7E6EC3142BD880007D1DF4 /* FileMenu.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EC2142BD880007D1DF4 /* FileMenu.rb */; };
+		6B7E6EC5142BDB94007D1DF4 /* ViewMenu.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EC4142BDB94007D1DF4 /* ViewMenu.rb */; };
+		6B7E6EC7142BDF9A007D1DF4 /* NoteRecord.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EC6142BDF9A007D1DF4 /* NoteRecord.rb */; };
+		6B7E6EC9142BDFED007D1DF4 /* brainstorm.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6EC8142BDFED007D1DF4 /* brainstorm.sqlite */; };
+		6B7E6ECB142BE404007D1DF4 /* DataAccess.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6ECA142BE404007D1DF4 /* DataAccess.rb */; };
+		6B7E6ED6142BEC75007D1DF4 /* CategoryRecord.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E6ED5142BEC75007D1DF4 /* CategoryRecord.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B7E6E9E142BD1FD007D1DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B7E6E8C142BD1FC007D1DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B7E6E94142BD1FD007D1DF4;
+			remoteInfo = Brainstorm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B7E6E95142BD1FD007D1DF4 /* Brainstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7E6E99142BD1FD007D1DF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6B7E6E9B142BD1FD007D1DF4 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		6B7E6EA2142BD1FD007D1DF4 /* Brainstorm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brainstorm-Info.plist"; sourceTree = "<group>"; };
+		6B7E6EA4142BD1FD007D1DF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B7E6EA6142BD1FD007D1DF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B7E6EA8142BD1FD007D1DF4 /* Brainstorm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brainstorm-Prefix.pch"; sourceTree = "<group>"; };
+		6B7E6EAB142BD1FD007D1DF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B7E6EAE142BD1FD007D1DF4 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		6B7E6EB0142BD1FD007D1DF4 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		6B7E6EBE142BD563007D1DF4 /* ToDo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
+		6B7E6EC0142BD7F2007D1DF4 /* Brainstorm.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Brainstorm.icns; sourceTree = "<group>"; };
+		6B7E6EC2142BD880007D1DF4 /* FileMenu.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = FileMenu.rb; sourceTree = "<group>"; };
+		6B7E6EC4142BDB94007D1DF4 /* ViewMenu.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ViewMenu.rb; sourceTree = "<group>"; };
+		6B7E6EC6142BDF9A007D1DF4 /* NoteRecord.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = NoteRecord.rb; sourceTree = "<group>"; };
+		6B7E6EC8142BDFED007D1DF4 /* brainstorm.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = brainstorm.sqlite; sourceTree = "<group>"; };
+		6B7E6ECA142BE404007D1DF4 /* DataAccess.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DataAccess.rb; sourceTree = "<group>"; };
+		6B7E6ED5142BEC75007D1DF4 /* CategoryRecord.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CategoryRecord.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B7E6E92142BD1FD007D1DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7E6E9A142BD1FD007D1DF4 /* Cocoa.framework in Frameworks */,
+				6B7E6E9C142BD1FD007D1DF4 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B7E6E8A142BD1FC007D1DF4 = {
+			isa = PBXGroup;
+			children = (
+				6B7E6EA0142BD1FD007D1DF4 /* Brainstorm */,
+				6B7E6E98142BD1FD007D1DF4 /* Frameworks */,
+				6B7E6E96142BD1FD007D1DF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B7E6E96142BD1FD007D1DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B7E6E95142BD1FD007D1DF4 /* Brainstorm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B7E6E98142BD1FD007D1DF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B7E6E99142BD1FD007D1DF4 /* Cocoa.framework */,
+				6B7E6E9B142BD1FD007D1DF4 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B7E6EA0142BD1FD007D1DF4 /* Brainstorm */ = {
+			isa = PBXGroup;
+			children = (
+				6B7E6EB0142BD1FD007D1DF4 /* AppDelegate.rb */,
+				6B7E6ECA142BE404007D1DF4 /* DataAccess.rb */,
+				6B7E6EC2142BD880007D1DF4 /* FileMenu.rb */,
+				6B7E6EC6142BDF9A007D1DF4 /* NoteRecord.rb */,
+				6B7E6ED5142BEC75007D1DF4 /* CategoryRecord.rb */,
+				6B7E6EC4142BDB94007D1DF4 /* ViewMenu.rb */,
+				6B7E6EA9142BD1FD007D1DF4 /* Resources */,
+				6B7E6EAD142BD1FD007D1DF4 /* Other Sources */,
+				6B7E6EA1142BD1FD007D1DF4 /* Supporting Files */,
+				6B7E6EBE142BD563007D1DF4 /* ToDo.txt */,
+			);
+			path = Brainstorm;
+			sourceTree = "<group>";
+		};
+		6B7E6EA1142BD1FD007D1DF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B7E6EC0142BD7F2007D1DF4 /* Brainstorm.icns */,
+				6B7E6EA2142BD1FD007D1DF4 /* Brainstorm-Info.plist */,
+				6B7E6EA3142BD1FD007D1DF4 /* InfoPlist.strings */,
+				6B7E6EA6142BD1FD007D1DF4 /* main.m */,
+				6B7E6EA8142BD1FD007D1DF4 /* Brainstorm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B7E6EA9142BD1FD007D1DF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B7E6EC8142BDFED007D1DF4 /* brainstorm.sqlite */,
+				6B7E6EAA142BD1FD007D1DF4 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B7E6EAD142BD1FD007D1DF4 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6B7E6EAE142BD1FD007D1DF4 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6B7E6E9D142BD1FD007D1DF4 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 6B7E6EB7142BD1FD007D1DF4 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				6B7E6E9F142BD1FD007D1DF4 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6B7E6E94142BD1FD007D1DF4 /* Brainstorm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B7E6EB4142BD1FD007D1DF4 /* Build configuration list for PBXNativeTarget "Brainstorm" */;
+			buildPhases = (
+				6B7E6E91142BD1FD007D1DF4 /* Sources */,
+				6B7E6E92142BD1FD007D1DF4 /* Frameworks */,
+				6B7E6E93142BD1FD007D1DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brainstorm;
+			productName = Brainstorm;
+			productReference = 6B7E6E95142BD1FD007D1DF4 /* Brainstorm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B7E6E8C142BD1FC007D1DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Itinerant Software Solutions";
+			};
+			buildConfigurationList = 6B7E6E8F142BD1FC007D1DF4 /* Build configuration list for PBXProject "Brainstorm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B7E6E8A142BD1FC007D1DF4;
+			productRefGroup = 6B7E6E96142BD1FD007D1DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B7E6E94142BD1FD007D1DF4 /* Brainstorm */,
+				6B7E6E9D142BD1FD007D1DF4 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B7E6E93142BD1FD007D1DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7E6EA5142BD1FD007D1DF4 /* InfoPlist.strings in Resources */,
+				6B7E6EAC142BD1FD007D1DF4 /* MainMenu.xib in Resources */,
+				6B7E6EAF142BD1FD007D1DF4 /* rb_main.rb in Resources */,
+				6B7E6EB1142BD1FD007D1DF4 /* AppDelegate.rb in Resources */,
+				6B7E6EBF142BD563007D1DF4 /* ToDo.txt in Resources */,
+				6B7E6EC1142BD7F2007D1DF4 /* Brainstorm.icns in Resources */,
+				6B7E6EC3142BD880007D1DF4 /* FileMenu.rb in Resources */,
+				6B7E6EC5142BDB94007D1DF4 /* ViewMenu.rb in Resources */,
+				6B7E6EC7142BDF9A007D1DF4 /* NoteRecord.rb in Resources */,
+				6B7E6EC9142BDFED007D1DF4 /* brainstorm.sqlite in Resources */,
+				6B7E6ECB142BE404007D1DF4 /* DataAccess.rb in Resources */,
+				6B7E6ED6142BEC75007D1DF4 /* CategoryRecord.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B7E6E91142BD1FD007D1DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7E6EA7142BD1FD007D1DF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B7E6E9F142BD1FD007D1DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B7E6E94142BD1FD007D1DF4 /* Brainstorm */;
+			targetProxy = 6B7E6E9E142BD1FD007D1DF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B7E6EA3142BD1FD007D1DF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B7E6EA4142BD1FD007D1DF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B7E6EAA142BD1FD007D1DF4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B7E6EAB142BD1FD007D1DF4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B7E6EB2142BD1FD007D1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B7E6EB3142BD1FD007D1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B7E6EB5142BD1FD007D1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brainstorm/Brainstorm-Prefix.pch";
+				INFOPLIST_FILE = "Brainstorm/Brainstorm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B7E6EB6142BD1FD007D1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brainstorm/Brainstorm-Prefix.pch";
+				INFOPLIST_FILE = "Brainstorm/Brainstorm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6B7E6EB8142BD1FD007D1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6B7E6EB9142BD1FD007D1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B7E6E8F142BD1FC007D1DF4 /* Build configuration list for PBXProject "Brainstorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7E6EB2142BD1FD007D1DF4 /* Debug */,
+				6B7E6EB3142BD1FD007D1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7E6EB4142BD1FD007D1DF4 /* Build configuration list for PBXNativeTarget "Brainstorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7E6EB5142BD1FD007D1DF4 /* Debug */,
+				6B7E6EB6142BD1FD007D1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7E6EB7142BD1FD007D1DF4 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7E6EB8142BD1FD007D1DF4 /* Debug */,
+				6B7E6EB9142BD1FD007D1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B7E6E8C142BD1FC007D1DF4 /* Project object */;
+}

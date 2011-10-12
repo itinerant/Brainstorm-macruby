@@ -1,0 +1,46 @@
+TODO
+----
+* dynamic location for database
+
+
+
+
+
+
+Features 
+--------
+* read data
+    * connect to database
+    * read categories
+    * read notes
+    * read note text
+    * default to first element in list
+* save data when lost focus
+* save data with keystroke
+
+* edit/format
+    * default font
+    * increase/decrease indent
+    * move between notes/categories
+    
+* right-click menu
+    * category
+    * note
+    
+* automatically edit (rename) on new category/note
+
+* save as
+    * html
+    * rtf
+    * txt
+* import
+    * current Qt
+    * current Cocoa
+    * html directories
+    * rtf directories
+* export
+    * rtf
+    * html
+* printing
+
+* create database if doesn't exist
